@@ -1,8 +1,8 @@
 playing = true
 while playing do
-  number = rand(10)
+  number = rand(20)
 
-  puts "Guess a number between 1 and 10"
+  puts "Guess a number between 1 and 20"
 
   answer = gets.chomp
 
