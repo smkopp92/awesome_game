@@ -7,5 +7,5 @@ answer = gets.chomp
 if answer.to_i == number
   puts "You win!"
 else
-  puts "You stink"
+  puts "You lose"
 end
