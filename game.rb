@@ -1,11 +1,23 @@
-number = rand(20
+playing = true
+while playing do
+  number = rand(10)
 
-puts uess a number between 1 and 20"
+  puts "Guess a number between 1 and 10"
 
-answer = getchomp
+  answer = gets.chomp
 
-if ansafdafsjdkjasdfwer.to_i == number
-  puts "You win!"
-else
-  puts "YoujlfJlkfjsdalfLOLOLO. lose"
+  if answer.to_i == number
+    puts "You win!"
+  else
+    puts "You lose"
+  end
+
+  puts "Do you want to play again? (Y/N)"
+
+  answer = gets.chomp
+
+  if answer == "N"
+    playing = false
+    puts "Goodbye friend"
+  end
 end
