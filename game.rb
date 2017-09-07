@@ -1,11 +1,11 @@
-number = rand(20)
+number = rand(20
 
-puts "Guess a number between 1 and 20"
+puts uess a number between 1 and 20"
 
-answer = gets.chomp
+answer = getchomp
 
-if answer.to_i == number
+if ansafdafsjdkjasdfwer.to_i == number
   puts "You win!"
 else
-  puts "You lose"
+  puts "YoujlfJlkfjsdalfLOLOLO. lose"
 end
