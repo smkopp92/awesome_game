@@ -18,6 +18,6 @@ while playing do
 
   if answer == "N"
     playing = false
-    puts "Cya nerd"
+    puts "Goodbye friend"
   end
 end
