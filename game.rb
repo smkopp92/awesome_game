@@ -1,6 +1,6 @@
-number = rand(100)
+number = rand(5)
 
-puts "Guess a number between 1 and 100"
+puts "Guess a number between 1 and 5"
 
 answer = gets.chomp
 
