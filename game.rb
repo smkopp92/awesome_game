@@ -7,7 +7,7 @@ while playing do
   answer = gets.chomp
 
   if answer.to_i == number
-    puts "You win!"
+    puts "You win! :)"
   else
     puts "You lose"
   end
